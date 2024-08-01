@@ -1,4 +1,4 @@
-# Accenture
+# Accenture IT Company
 Data Analytics and Visualisation
 
 ## Project Description
