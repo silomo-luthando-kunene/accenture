@@ -1,25 +1,27 @@
-# Accenture IT Company
+# Project: Social Buzz
 Data Analytics and Visualisation
 
-## Project Description
-A brief overview of the project, including its purpose and goals.
-
 ### Project Overview
-* **Problem Statement:** Clearly define the problem you're addressing.
-* **Data:** Describe the data used in the project, including its source and format.
-* **Methodology:** Outline the data analysis or machine learning techniques employed.
-* **Results:** Summarize the key findings and insights.
-* **Visualizations:** If applicable, mention any visualizations created to represent the data.
+* Social Buzz being a company in the content creation industry that has a platform that allows users to post content on their platform.
+   Due to the nature of Social Buzz's business and its ever increasing number of users the platform has and continues to receive, boasting over 500 million users each month, Social Buzz has observed that it is growing at an unexpected rate which poses a serious challenges relating to it's data management, scaling operations, and preparing for an IPO.
+  This extreme rise in the amount of unstructured user data exceeds the company's employee force's ability to process the data and as result Social Buzz is seeking external expertise to assist in finding a solution to its challenges.
 
+### Project Tasks
+* **Conduct a comprehensive audit of Social Buzz's big data practices:** Assess current data infrastructure, processes, and technologies to identify strengths, weaknesses, and opportunities for improvement.
+* **Develop recommendations for a successful IPO:** Provide strategic guidance on financial modeling, investor relations, regulatory compliance, and overall IPO preparation.
+* **Analyze Social Buzz's content categories:** Identify and evaluate the top five content categories based on aggregate popularity metrics.
+ 
 ### Tools and Technologies
-* List the tools and libraries used in the project (e.g., Python, Pandas, NumPy, Matplotlib, Scikit-learn).
+* SQL
+* Excel
+* Power BI
 
-### Tabe of Contents
+### Table of Contents
 
-Task 1: Project Understanding 
+* **Task 1:** Project Understanding
 
-Task 2: Data Cleaning and Modelling 
+* **Task 2:** Data Cleaning and Modelling
 
-Task 3: Data Visualisation and Storytelling 
+* **Task 3:** Data Visualisation and Storytelling
 
-Task 4: Present to the Client 
+* **Task 4:** Present to the Client 
