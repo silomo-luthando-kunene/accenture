@@ -1,0 +1,18 @@
+Step 1: Reviewing the Data Model Document
+The aim of this document was for me to use the data model to identify which datasets will be required to answer the business question - which is to figure out the top 5 categories with the largest popularity.
+From looking at the data model document I determined that in the information I would need to solve the business question would be the following datasets: Reaction, ReactionTypes and Content.
+
+Step 2: Cleaning the Data using Excel (Datasheets: Reaction, Reaction Types and Content)
+I fristly removed rows that have values which are missing then changed the data type of some values within a column so that there is synergy through out the datasheets and lastly I removed columns which are not relevant to solving the business question.
+Content Spreadsheet: I removed the URL column as the information is not needed and does not provide a quantitative measurement. It is not qualitative data which is what we are looking for. I then made sure that all the rows and columns in the Content sheet do not have any empty cells using the Filter Tool on Excel. I also removed cells that have quotation marks where there should have been integers and removed all duplicate cells.
+Reaction: I used the filter tool to remove all empty cells. I then removed the User ID column as it would not provide any information for determining which content category is most popular or performing the best. I left the Date Time column in the Reaction Datasheet as I thought it would be necessary to see what times during the day do the content categories perform best or at what specific time of the year.
+Reaction Type: This data sheet did not need any cleaning or alteration.
+
+Step 3: Data Modelling
+In this step I wanted to see the top 5 content categories in terms of popularity. I did this by following the following steps:
+1. I created a final data set by merging three tables together (Reaction, Reaction Types and Content) using VLookUp.
+2. From there I figured out the Top 5 performing categories.
+3. Lastly I added up the total scores for each category using the SumIf formula.
+The end result should be one spreadsheet which contains:
+1. A cleaned dataset.
+2. The top 5 categories.
