@@ -10,8 +10,11 @@ Reaction Type: This data sheet did not need any cleaning or alteration.
 
 Step 3: Data Modelling
 In this step I wanted to see the top 5 content categories in terms of popularity. I did this by following the following steps:
-1. I created a final data set by merging three tables together (Reaction, Reaction Types and Content) using VLookUp.
-2. From there I figured out the Top 5 performing categories.
+1. I created a final data set by merging three tables together (Reaction, Reaction Types and Content) using copy and paste methods as well as VLookUp using Content ID as the common unique column between Reaction and Content datasheets so that I could have the content type column matching the Content ID returned into my Reaction Datasheet under a column I made. 
+I then did the same VLookUp process so that I could return the Category column from the Content Datashaeet onto my Reaction Datasheet according to the Content ID column.
+I then used did the VLookUp operation with Reaction and Reaction Types Datasheets in ordet order to return the Sentiment and Score columns matching the coumns off Reaction Types in the Reaction Datasheet. 
+2. From there I figured out the Top 5 performing categories. 
+
 3. Lastly I added up the total scores for each category using the SumIf formula.
 The end result should be one spreadsheet which contains:
 1. A cleaned dataset.
