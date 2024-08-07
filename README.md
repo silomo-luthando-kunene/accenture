@@ -14,7 +14,6 @@ Data Analytics and Visualisation
 ### Tools and Technologies
 * SQL
 * Excel
-* Power BI
 
 ### Table of Contents
 
